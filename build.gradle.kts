@@ -41,7 +41,7 @@ dependencies {
     compileOnly(libs.worldguard.bukkit)
 
     // PlotSquared support
-    implementation(platform(libs.bom.newest))
+    implementation(platform("com.intellectualsites.bom:bom-newest:1.52"))
     compileOnly(libs.plotsquared.core)
     compileOnly(libs.plotsquared.bukkit) { isTransitive = false }
 
