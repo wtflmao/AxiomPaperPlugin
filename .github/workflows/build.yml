@@ -1,4 +1,5 @@
 name: Build
+
 on:
   push:
     branches: [ "**" ]
@@ -24,3 +25,9 @@ jobs:
         uses: gradle/gradle-build-action@v2
       - name: Build
         run: ./gradlew build
+
+      - name: Upload Jar Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: AxiomPaper-1.21-Backport-${{ github.sha }}  # Artifact 的名字，可以自定义
+          path: build/libs/*.jar        # Jar 文件所在的路径。请根据你的实际情况修改。
