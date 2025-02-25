@@ -1,17 +1,17 @@
 [versions]
 # Dependencies
-bom-newest = "1.37"
-cloud-paper = "2.0.0-20240516.054251-69"
+bom-newest = "1.52"
+cloud-paper = "2.0.0-20241130.184012-96"
 coreprotect = "22.4"
 paper = "1.21-R0.1-SNAPSHOT"
-plotsquared = "7.3.8"
+plotsquared = "7.5.1"
 reflection-remapper = "0.1.2-20240315.033304-2"
-viaversion-api = "5.0.1"
+viaversion-api = "5.2.2-SNAPSHOT"
 worldguard-bukkit = "7.0.9-SNAPSHOT"
 zstd-jni = "1.5.5-4"
 
 # Plugins
-paperweight-userdev = "1.7.2"
+paperweight-userdev = "2.0.0-beta.14"
 run-paper = "2.3.0"
 shadow = "8.1.7"
 
